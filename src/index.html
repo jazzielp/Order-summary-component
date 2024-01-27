@@ -1,39 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Order Summary Component</title>
-    <link rel="stylesheet" href="./output.css">
-</head>
-<body class="w-full h-screen ">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./output.css" />
+  </head>
+  <body class="w-full h-screen font-Red-Hat-Display bg-pale-blue">
     <picture>
-        <img src="./images/pattern-background-mobile.svg" alt="Background image">
+      <img
+        class="w-full h-48"
+        src="./images/pattern-background-mobile.svg"
+        alt="Background image"
+      />
     </picture>
-    <section>
-        <header>
-            <img src="./images/illustration-hero.svg" alt=" Music image">
-        </header>
-        <section>
-            <div>
-                <h1>Order Summary</h1>
-                <p>You can now listen to millions of songs, audiobooks, and podcasts on any device anywhere you like!</p>
-            </div>
-            <div>
-                <img src="./images/icon-music.svg" alt="Music icon">
-                <div>
-                    <h2>Annual Plan</h2>
-                    <span>$59.99/year</span>
-                </div>
-                <a href="#">Change</a>
-            </div>
+    <section class="w-[327px] mx-auto">
+      <header class="rounded-t-[20px]">
+        <img class="rounded-t-[20px]" src="./images/illustration-hero.svg" alt=" Music image" />
+      </header>
+      <section class="flex flex-col items-center bg-white rounded-b-[20px] py-3">
+        <div class="text-center mb-4">
+          <h1 class="text-[22px] font-bold my-4 text-dark-blue">Order Summary</h1>
+          <p class="text-base text-desaturated-blue py-2">
+            You can now listen to millions of songs, audiobooks, and podcasts on
+            any device anywhere you like!
+          </p>
+        </div>
+        <div class="flex justify-between items-center  w-[279px] p-4 bg-gray-l rounded-xl">
+         <picture>
+          <img src="./images//icon-music.svg" alt="">
+         </picture>
+          <div>
+            <h2 class="text-[16px] font-bold text-dark-blue">Annual Plan</h2>
+            <div class="text-sm text-desaturated-blue">$59.99/year</div>
+          </div>
+          <a class="text-sm underline text-bright-blue font-bold" href="#">Change</a>
+        </div>
 
-            <div>
-                <button>Proceed to Payment</button>
-                <button>Cancel Order</button>
-            </div>
-        </section>
+        <div class="flex flex-col gap-3 w-[279px] mt-3 mb-3">
+          <button class="w-full h-[50px] bg-bright-blue rounded-xl text-white font-bold shadow-bt">Proceed to Payment</button>
+          <button class="w-full h-[50px] text-desaturated-blue font-bold">Cancel Order</button>
+        </div>
+      </section>
     </section>
-
-</body>
+  </body>
 </html>
