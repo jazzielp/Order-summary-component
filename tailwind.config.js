@@ -3,6 +3,9 @@ module.exports = {
   content: ["./src/**/*.{html,js}"],
   theme: {
     extend: {
+      spacing: {
+        'med-calc' : "calc(50% - 165px)"
+      },
       fontFamily: {
         'Red-Hat-Display': ['Red Hat Display', 'sans-serif']
       },
@@ -16,6 +19,10 @@ module.exports = {
       },
       boxShadow:{
         'bt': '0px 4px 4px 0px rgba(0,0,0,0.25)'
+      },
+      backgroundImage: {
+        'movil-header': "url('/src/images/pattern-background-mobile.svg')",
+        'desktop-header': "url('/src/images/pattern-background-desktop.svg')"
       }
     },
   },
