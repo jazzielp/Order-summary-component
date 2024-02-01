@@ -25,14 +25,17 @@ Users should be able to:
 - See hover states for interactive elements
 
 ### Screenshot
-
+#### Desktop
 ![](./src/images/Captura%20de%20pantalla%202024-01-31%20164252.png)
+
+#### Movil
+![](./src/images/Captura%20de%20pantalla%202024-01-31%20165348.png)
 
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Github](https://github.com/jazzielp/Order-summary-component)
+- Live Site URL: [Web](https://jazzielp.github.io/Order-summary-component/)
 
 ## My process
 
@@ -43,15 +46,11 @@ Users should be able to:
 - Flexbox
 - CSS Grid
 - Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
-
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
+- [Tailwind](https://tailwindcss.com/) - Framework CSS
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+En este proyecto pude utilizar el framework Tailwind. Una excelente herramienta para generar CSS fácil. Pude aprender las bases de esta increible herramienta. Aprendi como hacer responsible mi web con unas simples lineas.
 
 To see how you can add code snippets, see below:
 
